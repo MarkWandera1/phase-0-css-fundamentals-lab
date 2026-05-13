@@ -44,9 +44,16 @@ section p {
   display: flex;
   justify-content: space-evenly;
   background-color: red;
+  padding: 40px;
+  overflow: auto;
+  /* white-space: nowrap; */
 }
 
-section div {
+h3 {
   text-align: center;
-  flex: 1 1 200px;
+}
+
+#details div {
+  text-align: center;
+  border: 2px solid black;
 }
